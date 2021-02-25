@@ -1,3 +1,4 @@
+
 class Song
   attr_accessor :name, :artist
 
@@ -13,7 +14,8 @@ class Song
   end
 
   def artist_name
-    self.artist.name if artist
+    artist.name if artist
   end
+
 
 end
